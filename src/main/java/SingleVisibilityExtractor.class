@@ -1,0 +1,9 @@
+
+public class SingleVisibilityExtractor implements VisibilityExtractor, VisibilitySerializer {
+    
+    public Visibility extractVisibility(final Entity entiy) {
+        // default implementation already done
+        return new Visibility();
+    }
+    
+}
