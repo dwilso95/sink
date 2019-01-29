@@ -1,9 +1,11 @@
-import uk.gov.gchq.gaffer.store.schema.Schema;
 import java.util.Map;
 
+import uk.gov.gchq.gaffer.store.schema.Schema;
+
 public interface SchemaModifier {
-    
-    Schema modifySchema(final Schema schema);
-    
-    void initialize(final Map<String, String> configuration);
+
+  Schema modify(final Schema schema);
+
+  SchemaModifier initialize(final Map<String, String> configuration);
+
 }
