@@ -9,6 +9,16 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-multibindings</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+		<dependency>
 			<groupId>uk.gov.gchq.gaffer</groupId>
 			<artifactId>data</artifactId>
 			<version>1.7.0</version>

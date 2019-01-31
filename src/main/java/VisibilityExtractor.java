@@ -1,7 +1,7 @@
 
 interface VisibilityExtractor {
 
-  Visibility extractVisibility(final Entity entity);
+  String  extractVisibility(final Entity entity);
 
 }
 
