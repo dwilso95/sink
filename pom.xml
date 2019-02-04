@@ -25,7 +25,17 @@
 		</dependency>
 		<dependency>
 			<groupId>uk.gov.gchq.gaffer</groupId>
+			<artifactId>accumulo-store</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>uk.gov.gchq.gaffer</groupId>
 			<artifactId>serialisation</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>uk.gov.gchq.gaffer</groupId>
+			<artifactId>hdfs-library</artifactId>
 			<version>1.7.0</version>
 		</dependency>
 		<dependency>
